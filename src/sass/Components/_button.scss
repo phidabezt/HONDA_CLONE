@@ -1,0 +1,35 @@
+@mixin button($border-color, $bg-color, $txt-color, $padding, $bg-hover, $color-hover) {
+   border: 2px solid $border-color;
+   border-radius: 40px;
+   background-color: $bg-color;
+   color: $txt-color;
+   font-weight: $font-weight-bold;
+   padding: $padding;
+   font-size: $font-size-1;
+   cursor: pointer;
+   &:hover {
+      background-color: $bg-hover;
+      color: $color-hover;
+   }
+}
+
+.btn-vehicle {
+   @include button($color-blue-100, $color-blue-100, $color-white, $pd-1 $pd-5, $color-white, $color-blue-100);
+   margin-right: $mg-1;
+}
+
+.btn-vehicle-active {
+   @include button($color-blue-100, $color-white, $color-blue-100, $pd-1 $pd-5, $color-blue-100, $color-white);
+}
+
+.btn-search {
+   @include button($color-blue-100, transparent, $color-blue-100, $pd-1 $pd-5, $color-blue-200, $color-white);
+   margin-top: $mg-2*(-1);
+
+   @media screen and (max-width: 768px) {
+      @include button($color-white, transparent, $color-white, $pd-1 $pd-2, $color-white, $color-blue-200);
+      // transform: translateY(-3px);
+      margin-top: 0;
+      border-radius: 5px;
+   }
+}

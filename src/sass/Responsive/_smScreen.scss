@@ -1,0 +1,75 @@
+#navbar {
+   a {
+      @media screen and (max-width: 768px) {
+         padding: $pd-1 $pd-2;
+      }
+   }
+
+   a:first-child {
+      @media screen and (max-width: 768px) {
+         padding: $pd-1 $pd-2;
+      }
+   }
+
+   .navbar-collapse {
+      @media screen and (max-width: 767px) {
+         border-top: $border-2;
+      }
+   }
+
+   .discover-menu {
+      &::before {
+         @media screen and (max-width: 768px) {
+            @include arrow(7%, unset);
+         }
+      }
+
+      @media screen and (max-width: 768px) {
+         top: 45px;
+         left: 0;
+         width: 100vw;
+      }
+   }
+}
+
+#search-area-xs {
+   &::before {
+      @media screen and (max-width: 768px) {
+         border-bottom-width: 0;
+      }
+   }
+
+   @media screen and (max-width: 768px) {
+      background-color: $color-blue-100;
+      padding: $pd-1 $pd-1;
+   }
+   i {
+      @media screen and (max-width: 768px) {
+         color: $color-white;
+         font-size: $font-size-1;
+         transform: translateY(1px);
+      }
+   }
+
+   input {
+      @media screen and (max-width: 768px) {
+         width: 60%;
+         height: 3.4rem;
+         border: 2px solid $color-white;
+         border-radius: 5px;
+         padding-top: $pd-2;
+         padding-bottom: $pd-2;
+         padding-left: $pd-1;
+         font-size: $font-size-1;
+         color: $color-white;
+         background-color: transparent;
+      }
+      
+      &::placeholder {
+         @media screen and (max-width: 768px)  {
+            font-size: $font-size-1;
+            color: $color-white;
+         }
+      }
+   }
+}

@@ -1,0 +1,118 @@
+#header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   width: 100%;
+}
+
+.navbar {
+   padding: 0;
+}
+
+#navbar {
+   background-color: $color-blue-100;
+   z-index: 2;
+   a {
+      color: $color-white;
+      padding:$pd-3 $pd-4;
+      border-right: $border-1;
+      border-left: $border-1;
+      font-size: $font-size-1;
+      &:hover {
+         text-decoration: none;
+      }
+
+      &:first-child {
+         padding: 0 $pd-4;
+         margin: 0;
+      }
+
+      &.active {
+         background-color: $color-white;
+         color: $color-blue-100;
+      }
+   }
+
+   .nav-item .nav-link {
+      padding:$pd-3 $pd-4;
+   }
+
+   .nav-item.dropdown {
+      position: relative;
+   }
+
+   .discover-menu {
+      left: unset;
+      right: -12%;
+      top: 160%;
+      width: 50rem;
+      padding: $pd-4;
+      text-align: left;
+      box-shadow: $box-shadow-0;
+      border: none;
+      position: absolute;
+      &::before {
+         @include arrow(unset, 10%)
+      }
+      .dropdown-item {
+         &:hover {
+            background-color: transparent;
+         }
+      }
+      .dropdown-menu-detail {
+         .dropdown-detail-right {
+            padding-left: $pd-8;
+         }
+
+         h3 {
+            margin-bottom: $mg-2 - 5;
+         }
+
+         ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+         }
+
+         ul li {
+            margin-bottom: $mg-2 - 5;
+            color: $color-dark-blue-200;
+            font-weight: $font-weight-bold;
+         }
+
+         ul li a {
+            color: $color-blue-200;
+            border: none;
+            padding: 0;
+            font-weight: $font-weight-bold;
+            font-size: $font-size-1;
+         }
+      }
+
+      .dropdown-menu-social {
+         display: flex;
+         justify-content: space-around;
+         padding: $pd-4 0;
+         i {
+            width: 30px;
+            height: 30px;
+            background-color: $color-blue-100;
+            border-radius: 50%;
+            color: $color-white;
+            font-size: $font-size-1;
+            text-align: center;
+            line-height: 30px;
+         }
+      }
+   }
+
+   
+}
+
+.no-border {
+   border: 0 !important;
+}
+
+
+

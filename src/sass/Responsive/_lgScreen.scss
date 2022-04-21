@@ -1,0 +1,14 @@
+#search-area {
+   @media screen and (max-width: 1200px) {
+      padding: $pd-2 $pd-3;
+   }
+   
+   input {
+      @media screen and (max-width: 1200px) {
+         width: 83%;
+      }
+      @media screen and (min-width: 1200px) and (max-width: 1300px) {
+         width: 83%;
+      }
+   }
+}
