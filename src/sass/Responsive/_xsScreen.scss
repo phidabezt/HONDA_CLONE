@@ -93,3 +93,11 @@
       }
    }
 }
+
+
+#swiper-slider {
+   @media screen and (max-width: 576px) {
+      margin-top: $mg-5;
+      margin-bottom: $mg-4 * 2;
+   }
+}

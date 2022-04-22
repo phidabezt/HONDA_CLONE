@@ -100,3 +100,21 @@
 }
 
 
+// BOOSTRAP CUSTOMIZE
+
+.carousel {
+   overflow: hidden;
+}
+
+.carousel-control-prev, .carousel-control-next {
+   width: 5%;
+}
+
+.carousel-control-prev i {
+   right: -0.8rem;
+}
+
+.carousel-control-next i {
+   left: -0.8rem;
+}
+

@@ -1,6 +1,6 @@
 #swiper-slider {
-   height: 800px;
-   margin-top: $mg-5;
+   height: 750px;
+   margin: $mg-5*2 0;
    background-color: $color-dark-blue-200;
 
    .swiper {
@@ -32,6 +32,15 @@
 
    .swiper-button-prev {
       left: -0.8rem;
+   }
+
+
+   .swiper-button-explore {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 20%;
+      z-index: 9;
    }
 }
 

@@ -4,6 +4,7 @@
          padding: $pd-2 $pd-2;
       }
    }
+
    .nav-item {
       .nav-link {
          @media screen and (max-width: 992px) {
@@ -11,6 +12,7 @@
          }
       }
    }
+
    a:first-child {
       @media screen and (max-width: 992px) {
          padding: 0;
@@ -22,10 +24,49 @@
    @media screen and (max-width: 992px) {
       padding: $pd-2 0;
    }
-   
+
    input {
       @media screen and (max-width: 992px) {
          width: 70%;
+      }
+   }
+}
+
+#swiper-slider {
+   @media screen and (max-width: 992px) {
+      height: 600px;
+   }
+
+   .swiper-container {
+      @media screen and (max-width: 992px) {
+         height: 400px;
+      }
+
+      .swiper-wrapper {
+         @media screen and (max-width: 992px) {
+            height: 90%;
+         }
+      }
+   }
+}
+
+.intro {
+   .intro-container {
+      .row {
+         .intro-right {
+            @media screen and (max-width: 992px) {
+               background-image: url("../img/intro-2-xs.jpg");
+            }
+
+
+            .intro-right-content {
+               @media screen and (max-width: 992px) {
+                  top: 43%;
+                  left: 10%;
+                  width: 87%;
+               }
+            }
+         }
       }
    }
 }

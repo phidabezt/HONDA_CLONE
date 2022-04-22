@@ -43,6 +43,7 @@
       background-color: $color-blue-100;
       padding: $pd-1 $pd-1;
    }
+
    i {
       @media screen and (max-width: 768px) {
          color: $color-white;
@@ -64,11 +65,37 @@
          color: $color-white;
          background-color: transparent;
       }
-      
+
       &::placeholder {
-         @media screen and (max-width: 768px)  {
+         @media screen and (max-width: 768px) {
             font-size: $font-size-1;
             color: $color-white;
+         }
+      }
+   }
+}
+
+#swiper-slider {
+   @media screen and (max-width: 768px) {
+      margin-top: $mg-5;
+   }
+}
+
+.intro {
+   .intro-container {
+      .row {
+         .intro-right {
+            @media screen and (max-width: 768px) {
+               background-image: url("../img/our-vehicles-intro-2.jpg");
+            }
+
+            .intro-right-content {
+               @media screen and (max-width: 768px) {
+                  top: 43%;
+                  left: 5%;
+                  width: 38%;
+               }
+            }
          }
       }
    }
