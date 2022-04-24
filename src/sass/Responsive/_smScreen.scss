@@ -100,3 +100,80 @@
       }
    }
 }
+
+#our-vehicle {
+   h1 {
+      @media screen and (max-width: 768px) {
+         font-size: $font-size-5;
+      }
+   }
+
+   .carousel-caption--config {
+      @media screen and (max-width: 768px) {
+         width: 70%;
+         left: 50%;
+         transform: translateX(-50%);
+         text-align: center;
+         bottom: 12%;
+         top: unset;
+         font-size: $font-size-1 - 0.2;
+         .carousel-caption-detail {
+            margin-bottom: 0;
+            .carousel-detail-content {
+               h2 {
+                  font-size: $font-size-3;
+               }
+               p {
+                  font-size: $font-size-1;
+               }
+            }
+         }
+      }
+   }
+
+   .carousel-caption-footer {
+      @media screen and (max-width: 768px) {
+         border: none;
+         width: 100%;
+         margin-top: $mg-3;
+         bottom: 2%;
+         justify-content: center;
+      }
+   }
+
+   .carousel-control-prev {
+      @media screen and (max-width: 768px) {
+         left: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+
+   .carousel-control-next {
+      @media screen and (max-width: 768px) {
+         right: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+   
+   .carousel-indicator-xs {
+      @media screen and (max-width: 768px) {
+         position: absolute;
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         z-index: 9;
+      }
+   }
+
+   .carousel-inner {
+      @media screen and (max-width: 768px) {
+         margin-top: $mg-3;
+      }
+   }
+}

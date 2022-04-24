@@ -23,7 +23,7 @@
             @include arrow(7%, unset);
          }
       }
-      
+
       @media screen and (max-width: 576px) {
          right: 0;
          width: 100%;
@@ -63,9 +63,9 @@
          color: $color-white;
          background-color: transparent;
       }
-      
+
       &::placeholder {
-         @media screen and (max-width: 576px)  {
+         @media screen and (max-width: 576px) {
             font-size: $font-size-1;
             color: $color-white;
          }
@@ -94,10 +94,86 @@
    }
 }
 
-
 #swiper-slider {
    @media screen and (max-width: 576px) {
       margin-top: $mg-5;
       margin-bottom: $mg-4 * 2;
+   }
+}
+
+#our-vehicle {
+   h1 {
+      @media screen and (max-width: 576px) {
+         font-size: $font-size-5;
+      }
+   }
+
+   .carousel-caption--config {
+      @media screen and (max-width: 576px) {
+         width: 70%;
+         left: 50%;
+         transform: translateX(-50%);
+         text-align: center;
+         bottom: 12%;
+         top: unset;
+         font-size: $font-size-1 - 0.2;
+         .carousel-caption-detail {
+            margin-bottom: 0;
+            .carousel-detail-content {
+               h2 {
+                  font-size: $font-size-3;
+               }
+               p {
+                  font-size: $font-size-1;
+               }
+            }
+         }
+      }
+   }
+
+   .carousel-caption-footer {
+      @media screen and (max-width: 576px) {
+         border: none;
+         width: 100%;
+         margin-top: $mg-3;
+         bottom: 2%;
+         justify-content: center;
+      }
+   }
+
+   .carousel-control-prev {
+      @media screen and (max-width: 576px) {
+         left: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+
+   .carousel-control-next {
+      @media screen and (max-width: 576px) {
+         right: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+   
+   .carousel-indicator-xs {
+      @media screen and (max-width: 576px) {
+         position: absolute;
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         z-index: 9;
+      }
+   }
+
+   .carousel-inner {
+      @media screen and (max-width: 576px) {
+         margin-top: $mg-3;
+      }
    }
 }

@@ -70,3 +70,87 @@
       }
    }
 }
+
+
+#our-vehicle {
+   h1 {
+      @media screen and (max-width: 992px) {
+         font-size: $font-size-5;
+      }
+   }
+
+   .carousel-caption--config {
+      @media screen and (max-width: 992px) {
+         width: 34%;
+         left: 23%;
+         transform: translateX(-50%);
+         text-align: left;
+         bottom: unset;
+         top: 20%;
+         font-size: $font-size-1 - 0.2;
+         .carousel-caption-detail {
+            margin-bottom: 0;
+            .carousel-detail-content {
+               h2 {
+                  font-size: $font-size-3;
+               }
+               p {
+                  font-size: $font-size-1;
+               }
+            }
+         }
+      }
+   }
+
+   .carousel-caption-footer {
+      @media screen and (max-width: 992px) {
+         border: none;
+         width: 50%;
+         margin-top: $mg-3;
+         bottom: 2%;
+         justify-content: center;
+      }
+   }
+
+   .carousel-indicators-config {
+      @media screen and (max-width: 992px) {
+         width: 100% !important;
+      }
+   }
+
+   .carousel-control-prev {
+      @media screen and (max-width: 992px) {
+         left: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+
+   .carousel-control-next {
+      @media screen and (max-width: 992px) {
+         right: 0;
+         i {
+            font-size: $font-size-3;
+            padding: $pd-2;
+         }
+      }
+   }
+   
+   .carousel-indicator-xs {
+      @media screen and (max-width: 992px) {
+         position: absolute;
+         top: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         z-index: 9;
+      }
+   }
+
+   .carousel-inner {
+      @media screen and (max-width: 992px) {
+         margin-top: 0;
+      }
+   }
+}
