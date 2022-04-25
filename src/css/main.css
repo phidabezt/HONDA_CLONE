@@ -1,11 +1,11 @@
 #vehicle-img1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3c4c5c), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#3c4c5c, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3c4c5c), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#3c4c5c, #f5f5f5, #f5f5f5);
 }
 
 .delay-1 {
@@ -14,13 +14,13 @@
 }
 
 #vehicle-img2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#5e5e5e, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#5e5e5e, #f5f5f5, #f5f5f5);
 }
 
 .delay-2 {
@@ -29,13 +29,13 @@
 }
 
 #vehicle-img3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#14409a), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#14409a, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#14409a), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#14409a, #f5f5f5, #f5f5f5);
 }
 
 .delay-3 {
@@ -44,13 +44,13 @@
 }
 
 #vehicle-img4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#c0bab5), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#c0bab5, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c0bab5), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#c0bab5, #f5f5f5, #f5f5f5);
 }
 
 .delay-4 {
@@ -59,13 +59,13 @@
 }
 
 #vehicle-img5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5c5c5c), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#5c5c5c, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c5c5c), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#5c5c5c, #f5f5f5, #f5f5f5);
 }
 
 .delay-5 {
@@ -74,13 +74,13 @@
 }
 
 #vehicle-img6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
 }
 
 .vehicles-product:hover > #vehicle-img6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#33569c), color-stop(#f6f6f6), to(#f6f6f6));
-  background: linear-gradient(#33569c, #f6f6f6, #f6f6f6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#33569c), color-stop(#f5f5f5), to(#f5f5f5));
+  background: linear-gradient(#33569c, #f5f5f5, #f5f5f5);
 }
 
 .delay-6 {
@@ -284,6 +284,60 @@
     background-size: cover;
     background-position: center center;
   }
+}
+
+.function-1 {
+  background: url("../img/item-1.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.function-2 {
+  background: url("../img/item-2.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.function-3 {
+  background: url("../img/item-3.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.function-4 {
+  background: url("../img/item-4.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.discover-item-1 {
+  background: url("../img/discover-1.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.discover-item-2 {
+  background: url("../img/discover-2.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.discover-item-3 {
+  background: url("../img/discover-3.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.discover-item-4 {
+  background: url("../img/discover-4.jpg");
+  background-size: cover;
+  background-position: center 0rem;
+}
+
+.discover-item-5 {
+  background: url("../img/discover-5.jpg");
+  background-size: cover;
+  background-position: center 0rem;
 }
 
 html {
@@ -519,6 +573,22 @@ body {
   color: #007cc3;
 }
 
+.btn-go-orange {
+  border: 2px solid #ff4404;
+  border-radius: 40px;
+  background-color: #ff4404;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 15px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.btn-go-orange:hover {
+  background-color: #fff;
+  color: #ff4404;
+}
+
 .btn-build {
   border: 2px solid #fff;
   border-radius: 40px;
@@ -718,14 +788,14 @@ body {
 }
 
 #vehicles #vehicles-content #vehicles-list {
-  background-color: #f6f6f6;
+  background-color: #f5f5f5;
   padding: 50px;
   max-height: 700px;
   padding-bottom: 100px;
 }
 
 #vehicles #vehicles-content #vehicles-list .vehicles-title h1 {
-  background-color: #f6f6f6;
+  background-color: #f5f5f5;
   position: relative;
   top: -2.7rem;
   padding: 0 6px;
@@ -782,7 +852,7 @@ body {
 }
 
 #vehicles #vehicles-content #vehicles-close {
-  background-color: #f6f6f6;
+  background-color: #f5f5f5;
   width: 70px;
   padding: 15px 0;
   text-align: center;
@@ -830,7 +900,7 @@ body {
 }
 
 #search-area {
-  background-color: #f6f6f6;
+  background-color: #f5f5f5;
   padding: 6px 50px;
   position: relative;
 }
@@ -881,7 +951,7 @@ body {
   -webkit-transition: 400ms all ease;
   transition: 400ms all ease;
   z-index: 3;
-  border-bottom-color: #f6f6f6;
+  border-bottom-color: #f5f5f5;
 }
 
 #swiper-slider {
@@ -932,6 +1002,7 @@ body {
 }
 
 .intro {
+  background-color: #f5f5f5;
   margin-top: -300px;
 }
 
@@ -966,6 +1037,7 @@ body {
 .intro .intro-container .intro-left .intro-left-content h4 {
   font-weight: bold;
   margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 .intro .intro-container .intro-left .intro-left-content p {
@@ -993,6 +1065,11 @@ body {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+#our-vehicle {
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
 }
 
 #our-vehicle .carousel {
@@ -1153,6 +1230,164 @@ body {
   cursor: pointer;
 }
 
+#our-vehicle #vehicle-function.function-container {
+  padding: 0 91px;
+  margin: 100px 0;
+}
+
+#our-vehicle #vehicle-function .row {
+  width: 100%;
+  margin: 0;
+}
+
+#our-vehicle #vehicle-function .function {
+  height: 400px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.08);
+          box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.08);
+  position: relative;
+}
+
+#our-vehicle #vehicle-function .function h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #00324f;
+}
+
+#our-vehicle #vehicle-function .function p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #00446b;
+  padding: 0 10%;
+}
+
+#our-vehicle #vehicle-function .function div {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
+  width: 85%;
+}
+
+#our-vehicle .intro .intro-container {
+  padding: 0 81px;
+}
+
+#our-vehicle .intro .intro-container .intro-left.intro-left-1 {
+  background-image: url("../img/intro-3.jpg");
+  margin-top: 250px;
+  margin-bottom: 20px;
+}
+
+#our-vehicle .intro .intro-container .intro-left.intro-right-1 {
+  background-image: url("../img/intro-4.jpg");
+  margin-top: 250px;
+  margin-bottom: 20px;
+}
+
+#our-vehicle #discover {
+  padding: 0 91px;
+}
+
+#our-vehicle #discover .discover-title h1 {
+  font-size: 6rem;
+  margin-bottom: 5px;
+}
+
+#our-vehicle #discover .discover-title span {
+  color: #00324f;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+#our-vehicle #discover .discover-item {
+  height: 500px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.08);
+          box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.08);
+}
+
+#our-vehicle #discover .discover-item .discover-item-content {
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 3%;
+}
+
+#our-vehicle #discover .discover-item .discover-item-content h2, #our-vehicle #discover .discover-item .discover-item-content a {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #00324f;
+}
+
+#our-vehicle #discover .discover-item .discover-item-content p {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+#our-vehicle #discover .discover-item .discover-item-content a {
+  color: #2198dc;
+  font-size: 1.4rem;
+}
+
+#our-vehicle #discover .discover-item-6 {
+  color: #2198dc;
+  background-color: #fff;
+  position: relative;
+}
+
+#our-vehicle #discover .discover-item-6 > i {
+  font-size: 2.4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-logo img {
+  border-radius: 0.5rem;
+  margin-right: 5px;
+  height: 4rem;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-logo p {
+  fonst-size: 1.4rem;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-logo p a {
+  color: #2198dc;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-logo p a:first-child {
+  font-weight: bold;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter > p {
+  font-size: 1.4rem;
+  color: #00324f;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-social {
+  color: #2198dc;
+}
+
+#our-vehicle #discover .discover-item-6 .discover-item-twitter .discover-twitter-social span {
+  margin-right: 20px;
+}
+
 .transform-rotate {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -1160,6 +1395,10 @@ body {
 
 .d-fluid {
   max-width: 100%;
+}
+
+.pd-col {
+  padding: 6px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1231,6 +1470,7 @@ body {
 @media screen and (max-width: 992px) {
   .intro .intro-container .row .intro-right {
     background-image: url("../img/intro-2-xs.jpg");
+    margin-top: 20px;
   }
 }
 
@@ -1443,6 +1683,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  #intro {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   #our-vehicle h1 {
     font-size: 4.5rem;
   }
@@ -1612,6 +1858,12 @@ body {
   #search-area-xs input::placeholder {
     font-size: 1.4rem;
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #intro {
+    margin-top: 20px;
   }
 }
 

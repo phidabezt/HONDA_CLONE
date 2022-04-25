@@ -9,3 +9,12 @@
    right: $right;
    transition: 400ms all ease;
 }
+
+@mixin text($weight, $margin) {
+   font-weight: $weight;
+   margin-bottom: $margin;
+}
+
+@mixin section-padding {
+   padding: 0 $pd-9;
+}

@@ -26,11 +26,11 @@
       background: url("../img/#{$img}.jpg");
       background-size: cover;
       background-position: center center;
-      
+
       @media screen and (max-width: 768px) {
-         background: url("../img/#{$img}-xs.jpg");
-         background-size: cover;
-         background-position: center center;
+        background: url("../img/#{$img}-xs.jpg");
+        background-size: cover;
+        background-position: center center;
       }
 
       @media screen and (max-width: 576px) {
@@ -42,17 +42,19 @@
   }
 }
 
-@each $idx, $img in (1, slider-1) (2, slider-2) (3, slider-3) (4, slider-4) (5, slider-5) {
+@each $idx,
+  $img in (1, slider-1) (2, slider-2) (3, slider-3) (4, slider-4) (5, slider-5)
+{
   .carousel-inner {
     .item-#{$idx} {
       background: url("../img/#{$img}.jpg");
       background-size: cover;
       background-position: center center;
-      
+
       @media screen and (max-width: 768px) {
-         background: url("../img/#{$img}-xs.jpg");
-         background-size: cover;
-         background-position: center center;
+        background: url("../img/#{$img}-xs.jpg");
+        background-size: cover;
+        background-position: center center;
       }
 
       @media screen and (max-width: 576px) {
@@ -61,5 +63,22 @@
         background-position: center center;
       }
     }
+  }
+}
+
+@each $idx, $img in (1, item-1) (2, item-2) (3, item-3) (4, item-4) {
+  .function-#{$idx} {
+    background: url("../img/#{$img}.jpg");
+    background-size: cover;
+    background-position: center 0rem;
+  }
+}
+
+
+@each $idx, $img in (1, discover-1) (2, discover-2) (3, discover-3) (4, discover-4) (5, discover-5) {
+  .discover-item-#{$idx} {
+    background: url("../img/#{$img}.jpg");
+    background-size: cover;
+    background-position: center 0rem;
   }
 }

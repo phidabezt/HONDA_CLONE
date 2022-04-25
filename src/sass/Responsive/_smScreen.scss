@@ -101,6 +101,12 @@
    }
 }
 
+#intro {
+   @media screen and (max-width: 768px) {
+      margin-top: $mg-2;
+   }
+}
+
 #our-vehicle {
    h1 {
       @media screen and (max-width: 768px) {
