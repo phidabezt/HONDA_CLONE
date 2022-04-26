@@ -42,6 +42,7 @@
       background-color: $color-blue-100;
       padding: $pd-1 $pd-1;
    }
+
    i {
       @media screen and (max-width: 576px) {
          color: $color-white;
@@ -123,12 +124,15 @@
          bottom: 12%;
          top: unset;
          font-size: $font-size-1 - 0.2;
+
          .carousel-caption-detail {
             margin-bottom: 0;
+
             .carousel-detail-content {
                h2 {
                   font-size: $font-size-3;
                }
+
                p {
                   font-size: $font-size-1;
                }
@@ -150,6 +154,7 @@
    .carousel-control-prev {
       @media screen and (max-width: 576px) {
          left: 0;
+
          i {
             font-size: $font-size-3;
             padding: $pd-2;
@@ -160,13 +165,14 @@
    .carousel-control-next {
       @media screen and (max-width: 576px) {
          right: 0;
+
          i {
             font-size: $font-size-3;
             padding: $pd-2;
          }
       }
    }
-   
+
    .carousel-indicator-xs {
       @media screen and (max-width: 576px) {
          position: absolute;
@@ -180,6 +186,74 @@
    .carousel-inner {
       @media screen and (max-width: 576px) {
          margin-top: $mg-3;
+      }
+   }
+}
+
+#search-field {
+   @media screen and (max-width: 576px) {
+      padding: 0;
+      flex-wrap: wrap;
+
+      div {
+         padding: $pd-1 0;
+         width: 100%;
+         border-top: $border-3;
+         border-right: none;
+   
+         input,
+         i,
+         input::placeholder {
+            font-size: $font-size-2;
+         }
+   
+         input {
+            width: 60%;
+         }
+   
+         .btn-search {
+            border-color: $color-blue-100;
+            border-radius: 40px;
+            color: $color-blue-200;
+   
+            &:hover {
+               background-color: $color-blue-100;
+               color: $color-white;
+            }
+         }
+      }
+   
+      p {
+         padding: $pd-2 0;
+      }
+   }
+
+
+}
+
+
+#footer {
+   @media screen and (max-width: 576px) {
+      background-color: $color-white;
+      .footer-detail {
+         width: 100%;
+         h1 {
+            background-color: $color-grey;
+            padding: $pd-3 $pd-2;
+            margin-bottom: $mg-1;
+            display: flex;
+            justify-content: space-between;
+            i {
+               @include social-icon;
+               color: $color-blue-200;
+               background-color: transparent;
+               border: $border-1;
+               cursor: pointer;
+            }
+         }
+         ul {
+            padding-left: $pd-3;
+         }
       }
    }
 }

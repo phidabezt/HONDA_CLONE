@@ -183,3 +183,44 @@
       }
    }
 }
+
+#search-field {
+   @media screen and (max-width: 768px) {
+      padding: 0;
+      flex-wrap: wrap;
+
+      div {
+         padding: $pd-1 $pd-3;
+         width: 100%;
+         border-top: $border-3;
+         border-right: none;
+   
+         input,
+         i,
+         input::placeholder {
+            font-size: $font-size-2;
+         }
+   
+         input {
+            width: 75%;
+         }
+   
+         .btn-search {
+            border-color: $color-blue-100;
+            border-radius: 40px;
+            color: $color-blue-200;
+   
+            &:hover {
+               background-color: $color-blue-100;
+               color: $color-white;
+            }
+         }
+      }
+   
+      p {
+         padding: $pd-2 0;
+      }
+   }
+
+
+}

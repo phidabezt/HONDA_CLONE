@@ -256,8 +256,8 @@
             > i {
                 font-size: $font-size-3;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 2%;
+                right: 2%;
             }
 
             .discover-item-twitter {
@@ -265,6 +265,8 @@
                 top: 30%;
                 left: 5%;
                 .discover-twitter-logo {
+                    margin-bottom: $mg-2;
+
                     img {
                         border-radius: 0.5rem;
                         margin-right: $mg-1;
@@ -272,10 +274,11 @@
                     }
 
                     p {
-                        fonst-size: $font-size-1;
+                        font-size: $font-size-1;
 
                         a {
                             color: $color-blue-200;
+                            font-size: $font-size-1;
                         }
 
                         a:first-child {

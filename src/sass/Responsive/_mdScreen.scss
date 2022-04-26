@@ -155,3 +155,36 @@
       }
    }
 }
+
+#search-field {
+   @media screen and (max-width: 992px) {
+      padding: 0 $pd-2;
+      flex-wrap: wrap;
+
+      div {
+         width: 70%;
+         input,
+         i,
+         input::placeholder {
+            font-size: $font-size-2;
+         }
+   
+         input {
+            width: 75%;
+         }
+   
+         .btn-search {
+            border-color: $color-blue-100;
+            border-radius: 40px;
+            color: $color-blue-200;
+            margin-top: 0;
+            &:hover {
+               background-color: $color-blue-100;
+               color: $color-white;
+            }
+         }
+      }
+   }
+
+
+}

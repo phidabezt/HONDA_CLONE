@@ -12,3 +12,14 @@
       }
    }
 }
+
+#search-field {
+   @media screen and (max-width: 1300px) {
+      div {
+         width: 85%;
+         input {
+            width: 75%;
+         }
+      }
+   }
+}

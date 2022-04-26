@@ -95,14 +95,7 @@
          justify-content: space-around;
          padding: $pd-4 0;
          i {
-            width: 30px;
-            height: 30px;
-            background-color: $color-blue-100;
-            border-radius: 50%;
-            color: $color-white;
-            font-size: $font-size-1;
-            text-align: center;
-            line-height: 30px;
+            @include social-icon;
          }
       }
    }
