@@ -44,3 +44,47 @@
         }
     }
 }
+
+
+#copyright {
+    background-color: $color-blue-100;
+    @include section-padding;
+    .copyright-left {
+        p {
+            font-size: $font-size-1;
+            color: $color-grey;
+            padding: $pd-2 0;
+            a {
+                color: $color-grey;
+                text-decoration: underline;
+                font-style: italic;
+            }
+        }
+    }
+
+    .copyright-right {
+        
+        ul {
+            justify-content: flex-end;
+            li {
+                padding: $pd-2;
+                border-left: $border-3;
+                a {
+                    color: $color-grey;
+                    font-size: $font-size-1;
+                }
+                &:first-child {
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .logo-footer {
+        margin-top: $mg-3;
+        img {
+            max-width: 50%;
+            height: 4rem;
+        }
+    }
+}

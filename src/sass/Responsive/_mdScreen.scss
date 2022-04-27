@@ -188,3 +188,45 @@
 
 
 }
+
+#footer {
+   @media screen and (max-width: 992px) {
+      background-color: $color-white;
+      .footer-detail {
+         width: 25%;
+      }
+   }
+}
+
+#copyright {
+   @media screen and (max-width: 992px) {
+      .copyright-left {
+         p {
+            font-size: $font-size-1 - 0.1;
+         }
+      }
+      .copyright-right {
+         ul {
+            justify-content: end;
+            li {
+               &:first-child {
+                  padding-left: 0;
+               }
+   
+               padding: $pd-2;
+
+               a {
+                  font-size: $font-size-1 - 0.3;
+               }
+            }
+         }
+      }
+
+      .logo-footer {
+         img {
+            max-width: 50%;
+            height: 40px;
+         }
+      }
+   }
+}
